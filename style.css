@@ -1,0 +1,202 @@
+/**
+ * NextUp - Your Meeting. On Schedule.
+ *
+ * (c) 2009 James Socol <me@jamessocol.com>
+ * Design by Ben Curtis 
+ */
+
+body {
+	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+	background-color: #BED875;
+	background-repeat: repeat-x;
+	background-image: url(images/pagegradient-24.png);
+	color: #4c9e00;
+}
+
+#nextup {
+	width: 500px;
+	margin: 100px auto 0;
+}
+
+#header {
+	height: 118px;
+	width: 260px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+h1 {
+	margin: 0 0 16px 0;
+	background-image: url(images/nextup.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: top center;
+	height: 0;
+	padding-top: 73px;
+	overflow: hidden;
+}
+
+#tagline {
+	background-image: url(images/nextup.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 0;
+	padding-top: 20px;	
+	position: relative;
+	bottom: 0;
+	overflow: hidden;
+}
+
+#nextup-app {
+	padding-bottom: 25px;
+}
+
+#footer {
+	width: 500px;
+	position: fixed;
+	bottom: 0;
+	padding-bottom: 5px;
+	background-color: #BED875;
+	color: #84A725;
+	text-align: center;
+}
+
+#footer a {
+	text-decoration: none;
+	border-bottom: 1px dotted #84A725;
+	color: #84A725;
+}
+
+#agenda-items li,
+input {
+	border: 1px solid #A7C259;
+	font-size: 20px;
+	color: #CADF90;
+	padding: 4px;
+	font-weight: bold;
+	background-image: url(images/forms.png);
+	background-repeat: repeat-x;
+	background-position: top right;
+	background-color: #fff;
+}
+
+button {
+	border: 1px solid #A7C259;
+	font-size: 20px;
+	color: #fff;
+	padding: 4px 10px;
+	margin: 0 6px;
+	font-weight: bold;
+	background: #B6DE46 url(images/button-24.png) repeat-x scroll 0 -85px;
+	text-shadow: 1px 1px 1px #333;
+}
+
+button:hover {
+	background-color: #d1ed83;
+	background-position: 0 -45px;
+}
+
+button:active {
+	background-color: #4C9E00;
+	background-position: 0 -5px;
+}
+
+#agenta-items,
+#meeting-name {
+	width: 390px;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#agenda-items,
+#meeting-topics {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#meeting-topics li {
+	text-align: center;
+	clear: both;
+	padding-top: 8px;
+}
+
+#agenda-items span,
+#meeting-topics input {
+	display: block;
+}
+
+#meeting-topics input.topic {
+	float: left;
+	margin-right: 10px;
+	width: 74%;
+}
+
+#meeting-topics input.time {
+	width: 20%;
+}
+
+#form-actions {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#form-tooltip {
+	position: absolute;
+	height: 43px;
+	background-image: url(images/bubble.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #966;
+}
+
+#form-tooltip span {
+	display: block;
+	margin: 0;
+	height: 32px;
+	padding: 7px 14px 4px 11px;
+	background-image: url(images/bubble.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 165%;
+	text-align: center;
+	text-shadow: 0 1px 1px #d1ed83;
+}
+
+#over-actions,
+#agenda-actions {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#agenda-items li {
+	position: relative;
+	background-image: url(images/inactives.png);
+	width: 80%;
+	color: #a5b37c;
+	background-color: #efefef;
+	padding-top: 2px;
+	margin: 8px auto 0;
+}
+
+#agenda-items li span.time {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+}
+
+#agenda-items li.active {
+	width: 100%;
+	font-size: 160%;
+	background-color: #fff;
+	background-image: url(images/forms.png);
+	color: #444;
+}

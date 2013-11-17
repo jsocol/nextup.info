@@ -1,0 +1,7 @@
+Header set Expires "Thu, 15 Apr 2020 20:00:00 GMT"
+Header unset ETag
+FileETag None
+
+<IfModule deflate_module>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/x-javascript
+</IfModule>
