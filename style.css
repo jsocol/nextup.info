@@ -200,3 +200,9 @@ h2 {
 	background-image: url(images/forms.png);
 	color: #444;
 }
+
+#shutdown {
+    background-color: #f9d42b;
+    border: 1px solid #ed9900;
+    padding: 8px;
+}
